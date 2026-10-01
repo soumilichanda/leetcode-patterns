@@ -12,3 +12,5 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 125 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | $O(n)$ | $O(1)$ | [Python](02_two_pointers/0125_valid_palindrome.py) |
 | 167 | [167. Two Sum II - Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | $O(n)$ | $O(1)$ | [Python](02_two_pointers/0167_two_sum_ii_sorted.py) |
 | 11 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Two Pointers | $O(n)$ | $O(1)$ | [Python](02_two_pointers/0011_container_with_most_water.py) |
+| 121 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Sliding Window | $O(n)$ | $O(1)$ | [Python](03_sliding_window/0121_best_time_to_buy_and_sell_stock.py) |
+| 3 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding Window | $O(n)$ | $O(\min(m, n))$ | [Python](03_sliding_window/0003_longest_substring_without_repeating_characters.py) |
