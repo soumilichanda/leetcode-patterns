@@ -18,3 +18,6 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 20 | Valid Parentheses | Easy | Stack | LIFO hash map bracket matching | $O(n)$ | $O(n)$ | [Code](04_stack/0020_valid_parentheses.py) |
 | 155 | Min Stack | Medium | Stack | Synchronized tuple minimum tracking | $O(1)$ ops | $O(n)$ | [Code](04_stack/0155_min_stack.py) |
 | 739 | Daily Temperatures | Medium | Stack | Monotonic decreasing index stack | $O(n)$ | $O(n)$ | [Code](04_stack/0739_daily_temperatures.py) |
+| 704 | Binary Search | Easy | Binary Search | Monotonic window bisection | $O(\log n)$ | $O(1)$ | [Code](05_binary_search/0704_binary_search.py) |
+| 74 | Search a 2D Matrix | Medium | Binary Search | Virtual 1D-to-2D row/col coordinate projection | $O(\log(m \cdot n))$ | $O(1)$ | [Code](05_binary_search/0074_search_a_2d_matrix.py) |
+| 875 | Koko Eating Bananas | Medium | Binary Search | Monotonic answer space feasibility search | $O(n \log(\max(P)))$ | $O(1)$ | [Code](05_binary_search/0875_koko_eating_bananas.py) |
