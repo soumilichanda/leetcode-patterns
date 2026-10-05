@@ -2,7 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-13%20Patterns-brightgreen)
+![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-15%20Patterns-brightgreen)
+![Clusters Completed](https://img.shields.io/badge/Clusters-5%2F5%20Active-blue)
 ![Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-blue)
 ---
 
