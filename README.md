@@ -23,3 +23,5 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 704 | Binary Search | Easy | Binary Search | Monotonic window bisection | $O(\log n)$ | $O(1)$ | [Code](05_binary_search/0704_binary_search.py) |
 | 74 | Search a 2D Matrix | Medium | Binary Search | Virtual 1D-to-2D row/col coordinate projection | $O(\log(m \cdot n))$ | $O(1)$ | [Code](05_binary_search/0074_search_a_2d_matrix.py) |
 | 875 | Koko Eating Bananas | Medium | Binary Search | Monotonic answer space feasibility search | $O(n \log(\max(P)))$ | $O(1)$ | [Code](05_binary_search/0875_koko_eating_bananas.py) |
+| 206 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Linked List | $O(n)$ | $O(1)$ | [Python](06_linked_list/0206_reverse_linked_list.py) |
+| 21 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Linked List | $O(n + m)$ | $O(1)$ | [Python](06_linked_list/0021_merge_two_sorted_lists.py) |
