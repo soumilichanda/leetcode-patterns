@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-18%20Patterns-brightgreen)
-![Clusters Completed](https://img.shields.io/badge/Clusters-5%2F5%20Completed-brightgreen)
+![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-21%20Patterns-brightgreen)
+![Clusters Completed](https://img.shields.io/badge/Clusters-6%2F6%20Completed-brightgreen)
 ![Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-blue)
 ---
 
@@ -29,3 +29,6 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 141 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | Linked List | Floyd's fast & slow pointer collision | $O(n)$ | $O(1)$ | [Python](06_linked_list/0141_linked_list_cycle.py) |
 | 19 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | Linked List | Fixed sentinel window gap $(n+1)$ | $O(n)$ | $O(1)$ | [Python](06_linked_list/0019_remove_nth_node_from_end_of_list.py) |
 | 143 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | Linked List | Midpoint split + reverse + alternating splice | $O(n)$ | $O(1)$ | [Python](06_linked_list/0143_reorder_list.py) |
+| 226 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Recursive post-order child pointer swap | \(n)\$ | \(h)\$ | [Python](07_trees/0226_invert_binary_tree.py) |
+| 104 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | Trees | Divide-and-conquer subtree depth reduction | \(n)\$ | \(h)\$ | [Python](07_trees/0104_maximum_depth_of_binary_tree.py) |
+| 102 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | Trees | BFS level-size queue snapshot iteration | \(n)\$ | \(w)\$ | [Python](07_trees/0102_binary_tree_level_order_traversal.py) |
