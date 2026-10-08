@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-21%20Patterns-brightgreen)
-![Clusters Completed](https://img.shields.io/badge/Clusters-6%2F6%20Completed-brightgreen)
+![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-23%20Patterns-brightgreen)
+![Clusters Completed](https://img.shields.io/badge/Clusters-7%2F7%20Completed-brightgreen)
 ![Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-blue)
 ---
 
@@ -32,3 +32,5 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 226 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Recursive post-order child pointer swap | \(n)\$ | \(h)\$ | [Python](07_trees/0226_invert_binary_tree.py) |
 | 104 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | Trees | Divide-and-conquer subtree depth reduction | \(n)\$ | \(h)\$ | [Python](07_trees/0104_maximum_depth_of_binary_tree.py) |
 | 102 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | Trees | BFS level-size queue snapshot iteration | \(n)\$ | \(w)\$ | [Python](07_trees/0102_binary_tree_level_order_traversal.py) |
+| 208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary child dict with end-of-word boolean marker | \(L)\$ | \(N \cdot L)\$ | [Python](08_tries/0208_implement_trie.py) |
+| 211 | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Tries | Prefix tree combined with backtracking DFS wildcard matching | \(L)\$ / \(26^L)\$ | \(N \cdot L)\$ | [Python](08_tries/0211_design_add_and_search_words.py) |
