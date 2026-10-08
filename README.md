@@ -34,3 +34,13 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 102 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | Trees | BFS level-size queue snapshot iteration | \(n)\$ | \(w)\$ | [Python](07_trees/0102_binary_tree_level_order_traversal.py) |
 | 208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary child dict with end-of-word boolean marker | \(L)\$ | \(N \cdot L)\$ | [Python](08_tries/0208_implement_trie.py) |
 | 211 | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Tries | Prefix tree combined with backtracking DFS wildcard matching | \(L)\$ / \(26^L)\$ | \(N \cdot L)\$ | [Python](08_tries/0211_design_add_and_search_words.py) |
+
+---
+
+## 🧪 Automated Testing & Verification
+
+Each algorithmic cluster contains unit tests and invariant validation:
+\\ash
+pytest -v 08_tries/test_tries.py
+python 08_tries/benchmark_trie.py
+\
