@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-23%20Patterns-brightgreen)
-![Clusters Completed](https://img.shields.io/badge/Clusters-7%2F7%20Completed-brightgreen)
+![LeetCode Patterns Solved](https://img.shields.io/badge/Solved-25%20Patterns-brightgreen)
+![Clusters Completed](https://img.shields.io/badge/Clusters-8%2F8%20Completed-brightgreen)
 ![Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-blue)
 ---
 
@@ -44,3 +44,5 @@ Each algorithmic cluster contains unit tests and invariant validation:
 pytest -v 08_tries/test_tries.py
 python 08_tries/benchmark_trie.py
 \
+| 215 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Heaps | Bounded size-k min-heap invariant | \(n \log k)\$ | \(k)\$ | [Python](09_heaps/0215_kth_largest_element.py) |
+| 973 | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | Heaps | Max-heap over squared Euclidean coordinates | \(n \log k)\$ | \(k)\$ | [Python](09_heaps/0973_k_closest_points_to_origin.py) |
