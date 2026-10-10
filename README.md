@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-25%20Patterns-brightgreen.svg)](#pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-9%2F9%20Completed-brightgreen.svg)](#pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-27%20Patterns-brightgreen.svg)](#pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-10%2F10%20Completed-brightgreen.svg)](#pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#pattern-progress-tracker)
 
 ---
@@ -39,6 +39,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | Heaps | Max-heap over squared Euclidean coordinates | `O(n log k)` | `O(k)` | [Code](09_heaps/0973_k_closest_points_to_origin.py) |
 
 ---
+
+| 200 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | Graphs | 2D grid BFS traversal with in-place sinking | \(m \cdot n)\$ | \(\min(m, n))\$ | [Python](10_graphs/0200_number_of_islands.py) |
+| 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Kahn algorithm topological sort with in-degrees | \(V + E)\$ | \(V + E)\$ | [Python](10_graphs/0207_course_schedule.py) |
 
 ## 🧪 Automated Testing & Verification
 
