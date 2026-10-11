@@ -2,9 +2,9 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-30%20Patterns-brightgreen.svg)](#pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-11%2F11%20Completed-brightgreen.svg)](#pattern-progress-tracker)
-[![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-29%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-11%2F11%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
 
@@ -33,16 +33,16 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Recursive post-order child pointer swap | `O(n)` | `O(h)` | [Code](07_trees/0226_invert_binary_tree.py) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | Trees | Divide-and-conquer subtree depth reduction | `O(n)` | `O(h)` | [Code](07_trees/0104_maximum_depth_of_binary_tree.py) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | Trees | BFS level-size queue snapshot iteration | `O(n)` | `O(w)` | [Code](07_trees/0102_binary_tree_level_order_traversal.py) |
-| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary child dict with end-of-word boolean marker | `O(L)` | `O(N * L)` | [Code](08_tries/0208_implement_trie.py) |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary child dict with end-of-word boolean marker | `O(L)` | `O(N * L)` | [Code](08_tries/0208_implement_trie_prefix_tree.py) |
 | 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Tries | Prefix tree combined with backtracking DFS wildcard matching | `O(L)` / `O(26^L)` | `O(N * L)` | [Code](08_tries/0211_design_add_and_search_words_data_structure.py) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Heaps | Bounded size-k min-heap invariant | `O(n log k)` | `O(k)` | [Code](09_heaps/0215_kth_largest_element.py) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | Heaps | Max-heap over squared Euclidean coordinates | `O(n log k)` | `O(k)` | [Code](09_heaps/0973_k_closest_points_to_origin.py) |
-| 200 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | Graphs | 2D grid BFS traversal with in-place sinking | `O(m * n)` | `O(min(m, n))` | [Code](10_graphs/0200_number_of_islands.py) |
-| 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Kahn algorithm topological sort with in-degrees | `O(V + E)` | `O(V + E)` | [Code](10_graphs/0207_course_schedule.py) |
----
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | Graphs | 2D grid BFS traversal with in-place sinking | `O(m * n)` | `O(min(m, n))` | [Code](10_graphs/0200_number_of_islands.py) |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Kahn algorithm topological sort with in-degrees | `O(V + E)` | `O(V + E)` | [Code](10_graphs/0207_course_schedule.py) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1D DP | Space-optimized Fibonacci recurrence | `O(n)` | `O(1)` | [Code](11_dynamic_programming/0070_climbing_stairs.py) |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | 1D DP | Non-adjacent state transition optimization | `O(n)` | `O(1)` | [Code](11_dynamic_programming/0198_house_robber.py) |
 
-| 70 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1D DP | Space-optimized Fibonacci recurrence | \(n)\$ | \(1)\$ | [Python](11_dynamic_programming/0070_climbing_stairs.py) |
-| 198 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | 1D DP | Non-adjacent state transition optimization | \(n)\$ | \(1)\$ | [Python](11_dynamic_programming/0198_house_robber.py) |
+---
 
 ## 🧪 Automated Testing & Verification
 
@@ -50,6 +50,6 @@ Each algorithmic cluster contains unit tests and invariant validation:
 
 ```bash
 pytest -v 08_tries/test_tries.py
-python 08_tries/benchmark_trie.py
+pytest -v 11_dynamic_programming/test_dp.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
