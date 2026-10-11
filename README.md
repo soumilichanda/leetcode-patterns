@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-27%20Patterns-brightgreen.svg)](#pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-10%2F10%20Completed-brightgreen.svg)](#pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-30%20Patterns-brightgreen.svg)](#pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-11%2F11%20Completed-brightgreen.svg)](#pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#pattern-progress-tracker)
 
 ---
@@ -40,6 +40,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 200 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | Graphs | 2D grid BFS traversal with in-place sinking | `O(m * n)` | `O(min(m, n))` | [Code](10_graphs/0200_number_of_islands.py) |
 | 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Kahn algorithm topological sort with in-degrees | `O(V + E)` | `O(V + E)` | [Code](10_graphs/0207_course_schedule.py) |
 ---
+
+| 70 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1D DP | Space-optimized Fibonacci recurrence | \(n)\$ | \(1)\$ | [Python](11_dynamic_programming/0070_climbing_stairs.py) |
+| 198 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | 1D DP | Non-adjacent state transition optimization | \(n)\$ | \(1)\$ | [Python](11_dynamic_programming/0198_house_robber.py) |
 
 ## 🧪 Automated Testing & Verification
 
