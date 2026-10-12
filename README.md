@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-29%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-11%2F11%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-31%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-12%2F12%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -11,7 +11,11 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 ## 📊 Pattern Progress Tracker
 
 | # | Problem | Difficulty | Pattern | Invariant / Technique | Time | Space | Solution |
-| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| :
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | 2D DP | Rolling row combinatorial grid transition | O(m * n) | O(n) | [Code](12_dynamic_programming_2d/0062_unique_paths.py) |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 2D DP | Dual-sequence matrix state recurrence | O(m * n) | O(m * n) | [Code](12_dynamic_programming_2d/1143_longest_common_subsequence.py) |
+
+---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | Hash map complement lookup | `O(n)` | `O(n)` | [Code](01_arrays_and_hashing/0001_two_sum.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | Inward-converging two pointers | `O(n)` | `O(1)` | [Code](02_two_pointers/0125_valid_palindrome.py) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | Monotonic sorted sum convergence | `O(n)` | `O(1)` | [Code](02_two_pointers/0167_two_sum_ii_sorted.py) |
