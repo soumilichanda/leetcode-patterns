@@ -11,11 +11,7 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 ## 📊 Pattern Progress Tracker
 
 | # | Problem | Difficulty | Pattern | Invariant / Technique | Time | Space | Solution |
-| :
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | 2D DP | Rolling row combinatorial grid transition | O(m * n) | O(n) | [Code](12_dynamic_programming_2d/0062_unique_paths.py) |
-| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 2D DP | Dual-sequence matrix state recurrence | O(m * n) | O(m * n) | [Code](12_dynamic_programming_2d/1143_longest_common_subsequence.py) |
-
----: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | Hash map complement lookup | `O(n)` | `O(n)` | [Code](01_arrays_and_hashing/0001_two_sum.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | Inward-converging two pointers | `O(n)` | `O(1)` | [Code](02_two_pointers/0125_valid_palindrome.py) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | Monotonic sorted sum convergence | `O(n)` | `O(1)` | [Code](02_two_pointers/0167_two_sum_ii_sorted.py) |
@@ -45,6 +41,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Kahn algorithm topological sort with in-degrees | `O(V + E)` | `O(V + E)` | [Code](10_graphs/0207_course_schedule.py) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1D DP | Space-optimized Fibonacci recurrence | `O(n)` | `O(1)` | [Code](11_dynamic_programming/0070_climbing_stairs.py) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | 1D DP | Non-adjacent state transition optimization | `O(n)` | `O(1)` | [Code](11_dynamic_programming/0198_house_robber.py) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | 2D DP | Rolling row combinatorial grid transition | `O(m * n)` | `O(n)` | [Code](12_dynamic_programming_2d/0062_unique_paths.py) |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 2D DP | Dual-sequence matrix state recurrence | `O(m * n)` | `O(m * n)` | [Code](12_dynamic_programming_2d/1143_longest_common_subsequence.py) |
 
 ---
 
@@ -55,5 +53,6 @@ Each algorithmic cluster contains unit tests and invariant validation:
 ```bash
 pytest -v 08_tries/test_tries.py
 pytest -v 11_dynamic_programming/test_dp.py
+pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
