@@ -43,11 +43,11 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | 1D DP | Non-adjacent state transition optimization | `O(n)` | `O(1)` | [Code](11_dynamic_programming/0198_house_robber.py) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | 2D DP | Rolling row combinatorial grid transition | `O(m * n)` | `O(n)` | [Code](12_dynamic_programming_2d/0062_unique_paths.py) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 2D DP | Dual-sequence matrix state recurrence | `O(m * n)` | `O(m * n)` | [Code](12_dynamic_programming_2d/1143_longest_common_subsequence.py) |
+| 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 1D / Subsequence DP | Patience sorting via binary search (`bisect_left`) on tails array | `O(n log n)` | `O(n)` | [Code](13_dynamic_programming_subsequences/0300_longest_increasing_subsequence.py) |
+| 416 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | 0/1 Knapsack DP | Reverse 1D boolean array tabulation towards sum/2 | `O(n * target)` | `O(target)` | [Code](13_dynamic_programming_subsequences/0416_partition_equal_subset_sum.py) |
 
 ---
 
-| 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 1D / Subsequence DP | Patience sorting via binary search insertion (\isect_left\) on tails array | \O(n log n)\ | \O(n)\ | [Python](13_dynamic_programming_subsequences/0300_longest_increasing_subsequence.py) |
-| 416 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | 0/1 Knapsack DP | Reverse 1D boolean array tabulation towards sum/2 | \O(n * target)\ | \O(target)\ | [Python](13_dynamic_programming_subsequences/0416_partition_equal_subset_sum.py) |
 
 ## 🧪 Automated Testing & Verification
 
