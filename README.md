@@ -45,12 +45,12 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 2D DP | Dual-sequence matrix state recurrence | `O(m * n)` | `O(m * n)` | [Code](12_dynamic_programming_2d/1143_longest_common_subsequence.py) |
 | 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 1D / Subsequence DP | Patience sorting via binary search (`bisect_left`) on tails array | `O(n log n)` | `O(n)` | [Code](13_dynamic_programming_subsequences/0300_longest_increasing_subsequence.py) |
 | 416 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | 0/1 Knapsack DP | Reverse 1D boolean array tabulation towards sum/2 | `O(n * target)` | `O(target)` | [Code](13_dynamic_programming_subsequences/0416_partition_equal_subset_sum.py) |
+| 53 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Greedy | Kadane’s O(n) greedy prefix scan discarding negative baggage | O(n) | O(1) | [Python](14_greedy/0053_maximum_subarray.py) |
+| 55 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy | Furthest horizon reachability expansion with early exit | O(n) | O(1) | [Python](14_greedy/0055_jump_game.py) |
 
 ---
 
 
-| 53 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Greedy | Kadane’s O(n) greedy prefix scan discarding negative baggage | O(n) | O(1) | [Python](14_greedy/0053_maximum_subarray.py) |
-| 55 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy | Furthest horizon reachability expansion with early exit | O(n) | O(1) | [Python](14_greedy/0055_jump_game.py) |
 
 ## 🧪 Automated Testing & Verification
 
