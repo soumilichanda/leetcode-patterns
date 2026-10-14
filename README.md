@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-33%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-13%2F13%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-35%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-14%20Clusters-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -48,6 +48,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 
 ---
 
+
+| 53 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Greedy | Kadane’s O(n) greedy prefix scan discarding negative baggage | O(n) | O(1) | [Python](14_greedy/0053_maximum_subarray.py) |
+| 55 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy | Furthest horizon reachability expansion with early exit | O(n) | O(1) | [Python](14_greedy/0055_jump_game.py) |
 
 ## 🧪 Automated Testing & Verification
 
