@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-35%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-14%20Clusters-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-37%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-15%20Clusters-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -51,6 +51,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 ---
 
 
+
+| 78 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | Backtracking | Binary decision tree state space exploration | O(n * 2^n) | O(n) | [Code](15_backtracking/0078_subsets.py) |
+| 39 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Target prune recursion with unbounded candidate reuse | O(2^t) | O(t) | [Code](15_backtracking/0039_combination_sum.py) |
 
 ## 🧪 Automated Testing & Verification
 
