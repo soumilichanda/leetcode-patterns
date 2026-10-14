@@ -47,13 +47,10 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 416 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | 0/1 Knapsack DP | Reverse 1D boolean array tabulation towards sum/2 | `O(n * target)` | `O(target)` | [Code](13_dynamic_programming_subsequences/0416_partition_equal_subset_sum.py) |
 | 53 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Greedy | Kadane’s O(n) greedy prefix scan discarding negative baggage | O(n) | O(1) | [Python](14_greedy/0053_maximum_subarray.py) |
 | 55 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy | Furthest horizon reachability expansion with early exit | O(n) | O(1) | [Python](14_greedy/0055_jump_game.py) |
-
----
-
-
-
 | 78 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | Backtracking | Binary decision tree state space exploration | O(n * 2^n) | O(n) | [Code](15_backtracking/0078_subsets.py) |
 | 39 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Target prune recursion with unbounded candidate reuse | O(2^t) | O(t) | [Code](15_backtracking/0039_combination_sum.py) |
+---
+
 
 ## 🧪 Automated Testing & Verification
 
