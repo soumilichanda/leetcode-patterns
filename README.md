@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-37%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-15%20Clusters-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-39%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-16%2F16%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -62,3 +62,5 @@ pytest -v 11_dynamic_programming/test_dp.py
 pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Backtracking | In-place element swap state-space recursion | O(n * n!) | O(n) | [Code](16_grid_backtracking/0046_permutations.py) |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | Backtracking | In-place 2D grid boundary DFS masking | O(M * N * 4^L) | O(L) | [Code](16_grid_backtracking/0079_word_search.py) |
