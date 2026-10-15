@@ -49,6 +49,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 55 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy | Furthest horizon reachability expansion with early exit | O(n) | O(1) | [Python](14_greedy/0055_jump_game.py) |
 | 78 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | Backtracking | Binary decision tree state space exploration | O(n * 2^n) | O(n) | [Code](15_backtracking/0078_subsets.py) |
 | 39 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Target prune recursion with unbounded candidate reuse | O(2^t) | O(t) | [Code](15_backtracking/0039_combination_sum.py) |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Backtracking | In-place element swap state-space recursion | O(n * n!) | O(n) | [Code](16_grid_backtracking/0046_permutations.py) |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | Backtracking | In-place 2D grid boundary DFS masking | O(M * N * 4^L) | O(L) | [Code](16_grid_backtracking/0079_word_search.py) |
+
 ---
 
 
@@ -62,5 +65,4 @@ pytest -v 11_dynamic_programming/test_dp.py
 pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Backtracking | In-place element swap state-space recursion | O(n * n!) | O(n) | [Code](16_grid_backtracking/0046_permutations.py) |
-| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | Backtracking | In-place 2D grid boundary DFS masking | O(M * N * 4^L) | O(L) | [Code](16_grid_backtracking/0079_word_search.py) |
+
