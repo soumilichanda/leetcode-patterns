@@ -65,5 +65,5 @@ pytest -v 11_dynamic_programming/test_dp.py
 pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
-| 56 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Intervals | Sort by start boundary and absorb overlapping spans | \(n \log n)\$ | \(n)\$ | [Python](17_intervals/0056_merge_intervals.py) |
-| 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | Three-stage linear sweep: before, overlap merge, and after | \(n)\$ | \(n)\$ | [Python](17_intervals/0057_insert_interval.py) |
+| 56 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Intervals | Sort by start boundary and absorb overlapping spans | O(n log n) | O(n) | [Python](17_intervals/0056_merge_intervals.py) | Medium | Intervals | Sort by start boundary and absorb overlapping spans | \(n \log n)\$ | \(n)\$ | [Python](17_intervals/0056_merge_intervals.py) |
+| 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | Three-stage linear sweep: before, overlap merge, and after | O(n) | O(n) | [Python](17_intervals/0057_insert_interval.py) | Medium | Intervals | Three-stage linear sweep: before, overlap merge, and after | \(n)\$ | \(n)\$ | [Python](17_intervals/0057_insert_interval.py) |
