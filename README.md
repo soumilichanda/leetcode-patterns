@@ -43,16 +43,16 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | 1D DP | Non-adjacent state transition optimization | `O(n)` | `O(1)` | [Code](11_dynamic_programming/0198_house_robber.py) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | 2D DP | Rolling row combinatorial grid transition | `O(m * n)` | `O(n)` | [Code](12_dynamic_programming_2d/0062_unique_paths.py) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 2D DP | Dual-sequence matrix state recurrence | `O(m * n)` | `O(m * n)` | [Code](12_dynamic_programming_2d/1143_longest_common_subsequence.py) |
-| 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 1D / Subsequence DP | Patience sorting via binary search (`bisect_left`) on tails array | `O(n log n)` | `O(n)` | [Code](13_dynamic_programming_subsequences/0300_longest_increasing_subsequence.py) |
-| 416 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | 0/1 Knapsack DP | Reverse 1D boolean array tabulation towards sum/2 | `O(n * target)` | `O(target)` | [Code](13_dynamic_programming_subsequences/0416_partition_equal_subset_sum.py) |
-| 53 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Greedy | Kadane’s O(n) greedy prefix scan discarding negative baggage | O(n) | O(1) | [Python](14_greedy/0053_maximum_subarray.py) |
-| 55 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy | Furthest horizon reachability expansion with early exit | O(n) | O(1) | [Python](14_greedy/0055_jump_game.py) |
-| 78 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | Backtracking | Binary decision tree state space exploration | O(n * 2^n) | O(n) | [Code](15_backtracking/0078_subsets.py) |
-| 39 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Target prune recursion with unbounded candidate reuse | O(2^t) | O(t) | [Code](15_backtracking/0039_combination_sum.py) |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 1D / Subsequence DP | Patience sorting via binary search (`bisect_left`) on tails array | `O(n log n)` | `O(n)` | [Code](13_dynamic_programming_subsequences/0300_longest_increasing_subsequence.py) |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | 0/1 Knapsack DP | Reverse 1D boolean array tabulation towards sum/2 | `O(n * target)` | `O(target)` | [Code](13_dynamic_programming_subsequences/0416_partition_equal_subset_sum.py) |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Greedy | Kadane’s O(n) greedy prefix scan discarding negative baggage | O(n) | O(1) | [Python](14_greedy/0053_maximum_subarray.py) |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | Greedy | Furthest horizon reachability expansion with early exit | O(n) | O(1) | [Python](14_greedy/0055_jump_game.py) |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | Backtracking | Binary decision tree state space exploration | O(n * 2^n) | O(n) | [Code](15_backtracking/0078_subsets.py) |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Target prune recursion with unbounded candidate reuse | O(2^t) | O(t) | [Code](15_backtracking/0039_combination_sum.py) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Backtracking | In-place element swap state-space recursion | O(n * n!) | O(n) | [Code](16_grid_backtracking/0046_permutations.py) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | Backtracking | In-place 2D grid boundary DFS masking | O(M * N * 4^L) | O(L) | [Code](16_grid_backtracking/0079_word_search.py) |
-| 56 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Intervals | Sort by start boundary and absorb overlapping spans | O(n log n) | O(n) | [Python](17_intervals/0056_merge_intervals.py) |
-| 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | Three-stage linear sweep: before, overlap merge, and after | O(n) | O(n) | [Python](17_intervals/0057_insert_interval.py) |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Intervals | Sort by start boundary and absorb overlapping spans | O(n log n) | O(n) | [Python](17_intervals/0056_merge_intervals.py) |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | Three-stage linear sweep: before, overlap merge, and after | O(n) | O(n) | [Python](17_intervals/0057_insert_interval.py) |
 
 ---
 
