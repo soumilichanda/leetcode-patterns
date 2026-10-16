@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-39%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-16%2F16%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-41%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-17%20Clusters-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -65,4 +65,5 @@ pytest -v 11_dynamic_programming/test_dp.py
 pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
-
+| 56 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Intervals | Sort by start boundary and absorb overlapping spans | \(n \log n)\$ | \(n)\$ | [Python](17_intervals/0056_merge_intervals.py) |
+| 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | Three-stage linear sweep: before, overlap merge, and after | \(n)\$ | \(n)\$ | [Python](17_intervals/0057_insert_interval.py) |
