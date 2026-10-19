@@ -2,7 +2,7 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-43%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-45%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
 [![Clusters Completed](https://img.shields.io/badge/Clusters-18%2F18%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
@@ -67,3 +67,5 @@ pytest -v 11_dynamic_programming/test_dp.py
 pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
+| 435 | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | Greedy Intervals | Earliest finish-time sort to minimize overlap collisions | O(n log n) | O(1) | [Python](19_greedy_intervals/0435_non_overlapping_intervals.py) |
+| 763 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | Greedy Intervals | Last-occurrence boundary expansion window | O(n) | O(1) | [Python](19_greedy_intervals/0763_partition_labels.py) |
