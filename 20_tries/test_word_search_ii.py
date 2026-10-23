@@ -1,5 +1,9 @@
 ﻿import pytest
-from 20_tries.0212_word_search_ii import Solution
+from importlib import import_module
+
+# Dynamically import module with numeric prefix
+ws_mod = import_module("20_tries.0212_word_search_ii")
+Solution = ws_mod.Solution
 
 
 def test_word_search_ii_basic():
