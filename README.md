@@ -55,9 +55,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | Three-stage linear sweep: before, overlap merge, and after | O(n) | O(n) | [Python](17_intervals/0057_insert_interval.py) |
 | 435 | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | Greedy Intervals | Earliest finish-time sort to minimize overlap collisions | O(n log n) | O(1) | [Python](19_greedy_intervals/0435_non_overlapping_intervals.py) |
 | 763 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | Greedy Intervals | Last-occurrence boundary expansion window | O(n) | O(1) | [Python](19_greedy_intervals/0763_partition_labels.py) |
-| 208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary retrieval tree with end-of-word boolean marker | \(L)\$ | \(N \cdot L)\$ | [Python](20_tries/0208_implement_trie.py) |
-| 211 | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Tries | Prefix tree combined with backtracking DFS wildcard matching | \(L)\$ / \(26^L)\$ | \(N \cdot L)\$ | [Python](20_tries/0211_design_add_and_search_words.py) |
-
+| 208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary retrieval tree with end-of-word boolean marker | `O(L)` | `O(N * L)` | [Python](08_tries/0208_implement_trie.py) |
+| 211 | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Tries | Prefix tree combined with backtracking DFS wildcard matching | `O(L)` / `O(26^L)` | `O(N * L)` | [Python](08_tries/0211_design_add_and_search_words.py) |
+| 212 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | Tries | Prefix Trie pruning with 2D matrix DFS backtracking | `O(M * N * 4 * 3^(L-1))` | `O(K * L)` | [Python](20_tries/0212_word_search_ii.py) |
 ---
 
 
@@ -71,4 +71,4 @@ pytest -v 11_dynamic_programming/test_dp.py
 pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 python 09_heaps/0215_kth_largest_element.py
 python 09_heaps/0973_k_closest_points_to_origin.py
-| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | Tries | Prefix Trie pruning with 2D matrix DFS backtracking | \O(M * N * 4 * 3^(L-1))\ | \O(K * L)\ | [Code](20_tries/0212_word_search_ii.py) |
+
