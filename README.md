@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-48%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-20%2F20%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-50%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-21%2F21%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -58,6 +58,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary retrieval tree with end-of-word boolean marker | `O(L)` | `O(N * L)` | [Python](08_tries/0208_implement_trie.py) |
 | 211 | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Tries | Prefix tree combined with backtracking DFS wildcard matching | `O(L)` / `O(26^L)` | `O(N * L)` | [Python](08_tries/0211_design_add_and_search_words.py) |
 | 212 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | Tries | Prefix Trie pruning with 2D matrix DFS backtracking | `O(M * N * 4 * 3^(L-1))` | `O(K * L)` | [Python](20_tries/0212_word_search_ii.py) |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Heaps | Bounded size-k min-heap invariant | O(n log k) | O(k) | [Code](21_heaps/0215_kth_largest_element.py) |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | Heaps | Dual balanced max/min heaps partition | O(log n) | O(n) | [Code](21_heaps/0295_find_median_from_data_stream.py) |
 ---
 
 
