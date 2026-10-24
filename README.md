@@ -58,9 +58,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Tries | 26-ary retrieval tree with end-of-word boolean marker | `O(L)` | `O(N * L)` | [Python](08_tries/0208_implement_trie.py) |
 | 211 | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Tries | Prefix tree combined with backtracking DFS wildcard matching | `O(L)` / `O(26^L)` | `O(N * L)` | [Python](08_tries/0211_design_add_and_search_words.py) |
 | 212 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | Tries | Prefix Trie pruning with 2D matrix DFS backtracking | `O(M * N * 4 * 3^(L-1))` | `O(K * L)` | [Python](20_tries/0212_word_search_ii.py) |
-| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Heaps | Bounded size-k min-heap invariant | O(n log k) | O(k) | [Code](21_heaps/0215_kth_largest_element.py) |
-| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | Heaps | Dual balanced max/min heaps partition | O(log n) | O(n) | [Code](21_heaps/0295_find_median_from_data_stream.py) |
----
+| 215 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Heaps | Bounded size-k min-heap invariant | `O(n log k)` | `O(k)` | [Python](21_heaps/0215_kth_largest_element.py) |
+| 295 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | Heaps | Dual balanced max/min heaps partition | `O(log n)` | `O(n)` | [Python](21_heaps/0295_find_median_from_data_stream.py) |
 
 
 ## 🧪 Automated Testing & Verification
@@ -71,6 +70,6 @@ Each algorithmic cluster contains unit tests and invariant validation:
 pytest -v 08_tries/test_tries.py
 pytest -v 11_dynamic_programming/test_dp.py
 pytest -v 12_dynamic_programming_2d/test_dp_2d.py
-python 09_heaps/0215_kth_largest_element.py
-python 09_heaps/0973_k_closest_points_to_origin.py
+pytest -v 20_tries/test_tries.py
+pytest -v 21_heaps/test_heaps.py
 
