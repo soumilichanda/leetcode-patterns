@@ -60,10 +60,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 212 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | Tries | Prefix Trie pruning with 2D matrix DFS backtracking | `O(M * N * 4 * 3^(L-1))` | `O(K * L)` | [Python](20_tries/0212_word_search_ii.py) |
 | 215 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Heaps | Bounded size-k min-heap invariant | `O(n log k)` | `O(k)` | [Python](21_heaps/0215_kth_largest_element.py) |
 | 295 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | Heaps | Dual balanced max/min heaps partition | `O(log n)` | `O(n)` | [Python](21_heaps/0295_find_median_from_data_stream.py) |
+| 127 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | Graph BFS | Bidirectional frontier BFS with wildcard bucketing | `O(M^2 * N)` | `O(M^2 * N)` | [Python](23_graph_bfs/0127_word_ladder.py) |
+| 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graph BFS | Kahn's algorithm in-degree topological sort | `O(V + E)` | `O(V + E)` | [Python](23_graph_bfs/0207_course_schedule.py) |
 
-
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | Graph BFS | Bidirectional frontier BFS with wildcard bucketing | O(M^2 * N) | O(M^2 * N) | [Code](23_graph_bfs/0127_word_ladder.py) |
-| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graph BFS | Kahn's algorithm in-degree topological sort | O(V + E) | O(V + E) | [Code](23_graph_bfs/0207_course_schedule.py) |
 
 ## 🧪 Automated Testing & Verification
 
