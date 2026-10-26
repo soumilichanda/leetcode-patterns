@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-52%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-22%2F22%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-54%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-23%2F23%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -61,6 +61,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 215 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | Heaps | Bounded size-k min-heap invariant | `O(n log k)` | `O(k)` | [Python](21_heaps/0215_kth_largest_element.py) |
 | 295 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | Heaps | Dual balanced max/min heaps partition | `O(log n)` | `O(n)` | [Python](21_heaps/0295_find_median_from_data_stream.py) |
 
+
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | Graph BFS | Bidirectional frontier BFS with wildcard bucketing | O(M^2 * N) | O(M^2 * N) | [Code](23_graph_bfs/0127_word_ladder.py) |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graph BFS | Kahn's algorithm in-degree topological sort | O(V + E) | O(V + E) | [Code](23_graph_bfs/0207_course_schedule.py) |
 
 ## 🧪 Automated Testing & Verification
 
