@@ -62,10 +62,10 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 295 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | Heaps | Dual balanced max/min heaps partition | `O(log n)` | `O(n)` | [Python](21_heaps/0295_find_median_from_data_stream.py) |
 | 127 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | Graph BFS | Bidirectional frontier BFS with wildcard bucketing | `O(M^2 * N)` | `O(M^2 * N)` | [Python](23_graph_bfs/0127_word_ladder.py) |
 | 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graph BFS | Kahn's algorithm in-degree topological sort | `O(V + E)` | `O(V + E)` | [Python](23_graph_bfs/0207_course_schedule.py) |
+| 684 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | Graph DSU | Disjoint Set Union with path compression cycle detection | `O(E * alpha(V))` | `O(V)` | [Python](24_mst_union_find/0684_redundant_connection.py) |
+| 1584 | [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | Graph MST | Kruskal algorithm with Manhattan edge greedy sort | `O(N^2 log N)` | `O(N^2)` | [Python](24_mst_union_find/1584_min_cost_to_connect_all_points.py) |
 
 
-| 684 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | Graph DSU | Disjoint Set Union with path compression cycle detection | O(E * alpha(V)) | O(V) | [Python](24_mst_union_find/0684_redundant_connection.py) |
-| 1584 | [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | Graph MST | Kruskal algorithm with Manhattan edge greedy sort | O(N^2 log N) | O(N^2) | [Python](24_mst_union_find/1584_min_cost_to_connect_all_points.py) |
 
 ## 🧪 Automated Testing & Verification
 
