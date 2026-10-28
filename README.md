@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-56%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-24%2F24%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-58%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-25%2F25%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -78,4 +78,5 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-
+| 743 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | Graph Shortest Path | Dijkstra min-heap greedy relaxation | O((V + E) log V) | O(V + E) | [Python](25_graph_shortest_path/0743_network_delay_time.py) |
+| 787 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | Graph Shortest Path | Snapshot Bellman-Ford relaxation bounded by K stops | O(K * E) | O(V) | [Python](25_graph_shortest_path/0787_cheapest_flights_k_stops.py) |
