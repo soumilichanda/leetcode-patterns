@@ -64,7 +64,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graph BFS | Kahn's algorithm in-degree topological sort | `O(V + E)` | `O(V + E)` | [Python](23_graph_bfs/0207_course_schedule.py) |
 | 684 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | Graph DSU | Disjoint Set Union with path compression cycle detection | `O(E * alpha(V))` | `O(V)` | [Python](24_mst_union_find/0684_redundant_connection.py) |
 | 1584 | [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | Graph MST | Kruskal algorithm with Manhattan edge greedy sort | `O(N^2 log N)` | `O(N^2)` | [Python](24_mst_union_find/1584_min_cost_to_connect_all_points.py) |
-
+| 743 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | Graph Shortest Path | Dijkstra min-heap greedy relaxation | `O((V + E) log V)` | `O(V + E)` | [Python](25_graph_shortest_path/0743_network_delay_time.py) |
+| 787 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | Graph Shortest Path | Snapshot Bellman-Ford relaxation bounded by K stops | `O(K * E)` | `O(V)` | [Python](25_graph_shortest_path/0787_cheapest_flights_k_stops.py) |
 
 
 ## 🧪 Automated Testing & Verification
@@ -78,5 +79,4 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-| 743 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | Graph Shortest Path | Dijkstra min-heap greedy relaxation | O((V + E) log V) | O(V + E) | [Python](25_graph_shortest_path/0743_network_delay_time.py) |
-| 787 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | Graph Shortest Path | Snapshot Bellman-Ford relaxation bounded by K stops | O(K * E) | O(V) | [Python](25_graph_shortest_path/0787_cheapest_flights_k_stops.py) |
+
