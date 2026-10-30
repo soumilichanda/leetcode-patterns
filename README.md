@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-60%20Patterns-brightgreen.svg)](#-pattern-progress-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-26%2F26%20Completed-brightgreen.svg)](#-pattern-progress-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-62%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-27%2F27%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -66,7 +66,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 1584 | [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | Graph MST | Kruskal algorithm with Manhattan edge greedy sort | `O(N^2 log N)` | `O(N^2)` | [Python](24_mst_union_find/1584_min_cost_to_connect_all_points.py) |
 | 743 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | Graph Shortest Path | Dijkstra min-heap greedy relaxation | `O((V + E) log V)` | `O(V + E)` | [Python](25_graph_shortest_path/0743_network_delay_time.py) |
 | 787 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | Graph Shortest Path | Snapshot Bellman-Ford relaxation bounded by K stops | `O(K * E)` | `O(V)` | [Python](25_graph_shortest_path/0787_cheapest_flights_k_stops.py) |
-
+| 253 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium | Interval Sweep-Line | Chronological min-heap room allocation | `O(N log N)` | `O(N)` | [Python](27_sweep_line/0253_meeting_rooms_ii.py) |
+| 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Interval Partitioning | Three-phase linear interval merging | `O(N)` | `O(1)` | [Python](27_sweep_line/0057_insert_interval.py) |
 
 ## 🧪 Automated Testing & Verification
 
@@ -80,5 +81,3 @@ pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
 
-| 253 | Meeting Rooms II | Medium | Interval Sweep-Line | Chronological min-heap room allocation | $\mathcal{O}(N \log N)$ | $\mathcal{O}(N)$ | [Code](27_sweep_line/0253_meeting_rooms_ii.py) |
-| 57 | Insert Interval | Medium | Interval Partitioning | Three-phase linear interval merging | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | [Code](27_sweep_line/0057_insert_interval.py) |
