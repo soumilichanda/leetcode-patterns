@@ -80,3 +80,5 @@ pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
 
+| 253 | Meeting Rooms II | Medium | Interval Sweep-Line | Chronological min-heap room allocation | $\mathcal{O}(N \log N)$ | $\mathcal{O}(N)$ | [Code](27_sweep_line/0253_meeting_rooms_ii.py) |
+| 57 | Insert Interval | Medium | Interval Partitioning | Three-phase linear interval merging | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | [Code](27_sweep_line/0057_insert_interval.py) |
