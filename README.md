@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-65%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-29%2F29%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-67%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-30%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -70,6 +70,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Interval Partitioning | Three-phase linear interval merging | `O(N)` | `O(1)` | [Python](27_sweep_line/0057_insert_interval.py) |
 | 452 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | Greedy Intervals | Coordinate intersection via earliest right-edge sweep | O(N log N) | O(1) | [Python](29_greedy_intervals/0452_minimum_arrows_balloon.py) |
 
+
+| 322 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Knapsack DP | Unbounded knapsack minimum coin minimization | O(A \cdot N) | O(A) | [Python](30_knapsack_dp/0322_coin_change.py) |
+| 518 | [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | Knapsack DP | Combinatorial order-independent unbounded coin sweep | O(A \cdot N) | O(A) | [Python](30_knapsack_dp/0518_coin_change_ii.py) |
 
 ## 🧪 Automated Testing & Verification
 
