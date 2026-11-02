@@ -69,10 +69,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 253 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium | Interval Sweep-Line | Chronological min-heap room allocation | `O(N log N)` | `O(N)` | [Python](27_sweep_line/0253_meeting_rooms_ii.py) |
 | 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Interval Partitioning | Three-phase linear interval merging | `O(N)` | `O(1)` | [Python](27_sweep_line/0057_insert_interval.py) |
 | 452 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | Greedy Intervals | Coordinate intersection via earliest right-edge sweep | O(N log N) | O(1) | [Python](29_greedy_intervals/0452_minimum_arrows_balloon.py) |
-
-
-| 322 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Knapsack DP | Unbounded knapsack minimum coin minimization | O(A \cdot N) | O(A) | [Python](30_knapsack_dp/0322_coin_change.py) |
-| 518 | [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | Knapsack DP | Combinatorial order-independent unbounded coin sweep | O(A \cdot N) | O(A) | [Python](30_knapsack_dp/0518_coin_change_ii.py) |
+| 322 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Knapsack DP | Unbounded knapsack minimum coin minimization | `O(A * N)` | `O(A)` | [Python](30_knapsack_dp/0322_coin_change.py) |
+| 518 | [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | Knapsack DP | Combinatorial order-independent unbounded coin sweep | `O(A * N)` | `O(A)` | [Python](30_knapsack_dp/0518_coin_change_ii.py) |
 
 ## 🧪 Automated Testing & Verification
 
