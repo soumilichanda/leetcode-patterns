@@ -11,11 +11,7 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 ## 📊 Pattern Progress Tracker
 
 | # | Problem | Difficulty | Pattern | Invariant / Technique | Time | Space | Solution |
-| :
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | DP State Machine | Single-pass running minimum cost basis invariant | O(n) | O(1) | [Code](31_dp_state_machine/0121_best_time_to_buy_and_sell_stock.py) |
-| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | DP State Machine | 3-state finite state machine (held, sold, reset) | O(n) | O(1) | [Code](31_dp_state_machine/0309_best_time_to_buy_and_sell_stock_with_cooldown.py) |
-
----: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | Hash map complement lookup | `O(n)` | `O(n)` | [Code](01_arrays_and_hashing/0001_two_sum.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | Inward-converging two pointers | `O(n)` | `O(1)` | [Code](02_two_pointers/0125_valid_palindrome.py) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | Monotonic sorted sum convergence | `O(n)` | `O(1)` | [Code](02_two_pointers/0167_two_sum_ii_sorted.py) |
@@ -75,6 +71,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 452 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | Greedy Intervals | Coordinate intersection via earliest right-edge sweep | O(N log N) | O(1) | [Python](29_greedy_intervals/0452_minimum_arrows_balloon.py) |
 | 322 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Knapsack DP | Unbounded knapsack minimum coin minimization | `O(A * N)` | `O(A)` | [Python](30_knapsack_dp/0322_coin_change.py) |
 | 518 | [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | Knapsack DP | Combinatorial order-independent unbounded coin sweep | `O(A * N)` | `O(A)` | [Python](30_knapsack_dp/0518_coin_change_ii.py) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | DP State Machine | Single-pass running minimum cost basis invariant | O(n) | O(1) | [Code](31_dp_state_machine/0121_best_time_to_buy_and_sell_stock.py) |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | DP State Machine | 3-state finite state machine (held, sold, reset) | O(n) | O(1) | [Code](31_dp_state_machine/0309_best_time_to_buy_and_sell_stock_with_cooldown.py) |
 
 ## 🧪 Automated Testing & Verification
 
