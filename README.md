@@ -3,7 +3,7 @@
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
 [![Solved Patterns](https://img.shields.io/badge/Solved-73%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-30%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-33%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -11,11 +11,7 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 ## 📊 Pattern Progress Tracker
 
 | # | Problem | Difficulty | Pattern | Invariant / Technique | Time | Space | Solution |
-| :
-| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | Generalized DP | 2k-state buy/sell machine with unbounded greedy bypass | `O(k * n)` | `O(k)` | [Code](33_dp_generalized_grids/0188_best_time_to_buy_and_sell_stock_iv.py) |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | Coordinate Grid DP | 1D rolling array prefix-sum path accumulation | `O(m * n)` | `O(n)` | [Code](33_dp_generalized_grids/0062_unique_paths.py) |
-
----: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | Hash map complement lookup | `O(n)` | `O(n)` | [Code](01_arrays_and_hashing/0001_two_sum.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | Inward-converging two pointers | `O(n)` | `O(1)` | [Code](02_two_pointers/0125_valid_palindrome.py) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | Monotonic sorted sum convergence | `O(n)` | `O(1)` | [Code](02_two_pointers/0167_two_sum_ii_sorted.py) |
@@ -79,6 +75,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | DP State Machine | 3-state finite state machine (held, sold, reset) | O(n) | O(1) | [Code](31_dp_state_machine/0309_best_time_to_buy_and_sell_stock_with_cooldown.py) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | Multidimensional DP | 2-state rolling hold/free transition with friction cost | O(n) | O(1) | [Code](32_dp_multidimensional_stock/0714_best_time_to_buy_and_sell_stock_with_transaction_fee.py) |
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | Multidimensional DP | 4-variable sequential k=2 trade stage transduction | O(n) | O(1) | [Code](32_dp_multidimensional_stock/0123_best_time_to_buy_and_sell_stock_iii.py) |
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | Generalized DP | 2k-state buy/sell machine with unbounded greedy bypass | `O(k * n)` | `O(k)` | [Code](33_dp_generalized_grids/0188_best_time_to_buy_and_sell_stock_iv.py) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | Coordinate Grid DP | 1D rolling array prefix-sum path accumulation | `O(m * n)` | `O(n)` | [Code](33_dp_generalized_grids/0062_unique_paths.py) |
 
 ## 🧪 Automated Testing & Verification
 
