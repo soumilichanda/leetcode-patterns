@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-73%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-33%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-75%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-34%2F34%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -77,8 +77,13 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | Multidimensional DP | 4-variable sequential k=2 trade stage transduction | O(n) | O(1) | [Code](32_dp_multidimensional_stock/0123_best_time_to_buy_and_sell_stock_iii.py) |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | Generalized DP | 2k-state buy/sell machine with unbounded greedy bypass | `O(k * n)` | `O(k)` | [Code](33_dp_generalized_grids/0188_best_time_to_buy_and_sell_stock_iv.py) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | Coordinate Grid DP | 1D rolling array prefix-sum path accumulation | `O(m * n)` | `O(n)` | [Code](33_dp_generalized_grids/0062_unique_paths.py) |
+| 5 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | DP Substrings | Two-pointer expand-around-center coordinate sweep | \O(n^2)\ | \O(1)\ | [Python](34_palindromic_substrings/0005_longest_palindromic_substring.py) |
+| 647 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | DP Substrings | Center expansion boundary counting | \O(n^2)\ | \O(1)\ | [Python](34_palindromic_substrings/0647_palindromic_substrings.py) |
 
 ## 🧪 Automated Testing & Verification
+
+`ash
+pytest -v 34_palindromic_substrings/test_palindromic_substrings.py
 
 Each algorithmic cluster contains unit tests and invariant validation:
 
