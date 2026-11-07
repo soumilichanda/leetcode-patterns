@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-75%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-34%2F34%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-77%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-35%2F35%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -79,8 +79,13 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | Coordinate Grid DP | 1D rolling array prefix-sum path accumulation | `O(m * n)` | `O(n)` | [Code](33_dp_generalized_grids/0062_unique_paths.py) |
 | 5 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | DP Substrings | Two-pointer expand-around-center coordinate sweep | \O(n^2)\ | \O(1)\ | [Python](34_palindromic_substrings/0005_longest_palindromic_substring.py) |
 | 647 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | DP Substrings | Center expansion boundary counting | \O(n^2)\ | \O(1)\ | [Python](34_palindromic_substrings/0647_palindromic_substrings.py) |
+| 516 | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium | DP Subsequences | 2D interval DP with rolling-array 1D space compression | \O(n^2)\ | \O(n)\ | [Python](35_palindromic_subsequences/0516_longest_palindromic_subsequence.py) |
+| 132 | [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | Hard | DP Subsequences | Center-expansion radius sweeping with 1D min-cut pruning | \O(n^2)\ | \O(n)\ | [Python](35_palindromic_subsequences/0132_palindrome_partitioning_ii.py) |
 
 ## 🧪 Automated Testing & Verification
+
+`ash
+pytest -v 35_palindromic_subsequences/test_palindromic_subsequences.py
 
 `ash
 pytest -v 34_palindromic_substrings/test_palindromic_substrings.py
