@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-77%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-35%2F35%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-79%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-36%2F36%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -81,8 +81,13 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 647 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | DP Substrings | Center expansion boundary counting | \O(n^2)\ | \O(1)\ | [Python](34_palindromic_substrings/0647_palindromic_substrings.py) |
 | 516 | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium | DP Subsequences | 2D interval DP with rolling-array 1D space compression | \O(n^2)\ | \O(n)\ | [Python](35_palindromic_subsequences/0516_longest_palindromic_subsequence.py) |
 | 132 | [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | Hard | DP Subsequences | Center-expansion radius sweeping with 1D min-cut pruning | \O(n^2)\ | \O(n)\ | [Python](35_palindromic_subsequences/0132_palindrome_partitioning_ii.py) |
+| 124 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | Tree DP | Post-order gain branch pruning with global path updates | \O(n)\ | \O(h)\ | [Python](36_tree_dp/0124_binary_tree_maximum_path_sum.py) |
+| 337 | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) | Medium | Tree DP | Two-state (rob, skip) tuple subtree recurrence | \O(n)\ | \O(h)\ | [Python](36_tree_dp/0337_house_robber_iii.py) |
 
 ## 🧪 Automated Testing & Verification
+
+`ash
+pytest -v 36_tree_dp/test_tree_dp.py
 
 `ash
 pytest -v 35_palindromic_subsequences/test_palindromic_subsequences.py
