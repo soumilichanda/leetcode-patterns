@@ -86,15 +86,6 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 
 ## 🧪 Automated Testing & Verification
 
-`ash
-pytest -v 36_tree_dp/test_tree_dp.py
-
-`ash
-pytest -v 35_palindromic_subsequences/test_palindromic_subsequences.py
-
-`ash
-pytest -v 34_palindromic_substrings/test_palindromic_substrings.py
-
 Each algorithmic cluster contains unit tests and invariant validation:
 
 ```bash
