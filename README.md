@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-79%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-36%2F36%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-81%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-37%2F37%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -83,6 +83,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 132 | [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | Hard | DP Subsequences | Center-expansion radius sweeping with 1D min-cut pruning | \O(n^2)\ | \O(n)\ | [Python](35_palindromic_subsequences/0132_palindrome_partitioning_ii.py) |
 | 124 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | Tree DP | Post-order gain branch pruning with global path updates | \O(n)\ | \O(h)\ | [Python](36_tree_dp/0124_binary_tree_maximum_path_sum.py) |
 | 337 | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) | Medium | Tree DP | Two-state (rob, skip) tuple subtree recurrence | \O(n)\ | \O(h)\ | [Python](36_tree_dp/0337_house_robber_iii.py) |
+
+| 543 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | Tree DP | Post-order subtree depth propagation with diameter tracking | \O(n)\ | \O(h)\ | [Python](37_tree_rerooting_diameter/0543_diameter_of_binary_tree.py) |
+| 834 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | Tree DP | Two-pass tree re-rooting DP with subtree size shift | \O(n)\ | \O(n)\ | [Python](37_tree_rerooting_diameter/0834_sum_of_distances_in_tree.py) |
 
 ## 🧪 Automated Testing & Verification
 
