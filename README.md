@@ -85,7 +85,6 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 337 | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) | Medium | Tree DP | Two-state (rob, skip) tuple subtree recurrence | \O(n)\ | \O(h)\ | [Python](36_tree_dp/0337_house_robber_iii.py) |
 | 543 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | Tree DP | Post-order subtree depth propagation with diameter tracking | \O(n)\ | \O(h)\ | [Python](37_tree_rerooting_diameter/0543_diameter_of_binary_tree.py) |
 | 834 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | Tree DP | Two-pass tree re-rooting DP with subtree size shift | \O(n)\ | \O(n)\ | [Python](37_tree_rerooting_diameter/0834_sum_of_distances_in_tree.py) |
-
 | 968 | [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | Hard | Tree DP | Post-order 3-state greedy subtree coverage | \O(n)\ | \O(h)\ | [Python](38_tree_ancestral_dp/0968_binary_tree_cameras.py) |
 | 687 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | Medium | Tree DP | Subtree single-branch directional univalue propagation | \O(n)\ | \O(h)\ | [Python](38_tree_ancestral_dp/0687_longest_univalue_path.py) |
 
