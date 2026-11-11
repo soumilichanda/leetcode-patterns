@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-83%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-38%2F38%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-85%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-39%2F39%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -88,7 +88,13 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 968 | [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | Hard | Tree DP | Post-order 3-state greedy subtree coverage | \O(n)\ | \O(h)\ | [Python](38_tree_ancestral_dp/0968_binary_tree_cameras.py) |
 | 687 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | Medium | Tree DP | Subtree single-branch directional univalue propagation | \O(n)\ | \O(h)\ | [Python](38_tree_ancestral_dp/0687_longest_univalue_path.py) |
 
+| 236 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | Tree DP | Post-order subtree state bubbling and divergence detection | \O(n)\ | \O(h)\ | [Python](39_tree_ancestral_serialization/0236_lowest_common_ancestor.py) |
+| 297 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Tree DP | Preorder sentinel DFS string serialization and stream reconstruction | \O(n)\ | \O(n)\ | [Python](39_tree_ancestral_serialization/0297_serialize_and_deserialize_binary_tree.py) |
+
 ## 🧪 Automated Testing & Verification
+
+\\ash
+pytest -v 39_tree_ancestral_serialization/test_tree_ancestral_serialization.py
 
 \\ash
 pytest -v 38_tree_ancestral_dp/test_tree_ancestral.py
