@@ -92,7 +92,7 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 
 ## 🧪 Automated Testing & Verification
 
-Each algorithmic cluster contains unit tests and invariant validation:
+Each algorithmic cluster contains unit tests and invariant validation :
 
 ```bash
 pytest -v 08_tries/test_tries.py
