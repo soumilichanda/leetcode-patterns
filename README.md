@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-85%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-39%2F39%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-87%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-40%2F40%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -90,7 +90,13 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 236 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | Tree DP | Post-order subtree state bubbling and divergence detection | \O(n)\ | \O(h)\ | [Python](39_tree_ancestral_serialization/0236_lowest_common_ancestor.py) |
 | 297 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Tree DP | Preorder sentinel DFS string serialization and stream reconstruction | \O(n)\ | \O(n)\ | [Python](39_tree_ancestral_serialization/0297_serialize_and_deserialize_binary_tree.py) |
 
+| 96 | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | Catalan DP | 1D bottom-up Catalan subtree structural recurrence | \O(n^2)\ | \O(n)\ | [Python](40_catalan_bst_dp/0096_unique_binary_search_trees.py) |
+| 95 | [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | Catalan DP | Memoized divide-and-conquer Cartesian BST synthesis | \O(4^n / n^(1/2))\ | \O(4^n / n^(1/2))\ | [Python](40_catalan_bst_dp/0095_unique_binary_search_trees_ii.py) |
+
 ## 🧪 Automated Testing & Verification
+
+\\ash
+pytest -v 40_catalan_bst_dp/test_catalan_bst_dp.py
 
 Each algorithmic cluster contains unit tests and invariant validation :
 
