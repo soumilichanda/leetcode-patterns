@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-87%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-40%2F40%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-89%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-41%2F41%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -91,6 +91,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 297 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Tree DP | Preorder sentinel DFS string serialization and stream reconstruction | \O(n)\ | \O(n)\ | [Python](39_tree_ancestral_serialization/0297_serialize_and_deserialize_binary_tree.py) |
 | 96 | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | Catalan DP | 1D bottom-up Catalan subtree structural recurrence | \O(n^2)\ | \O(n)\ | [Python](40_catalan_bst_dp/0096_unique_binary_search_trees.py) |
 | 95 | [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | Catalan DP | Memoized divide-and-conquer Cartesian BST synthesis | \O(4^n / n^(1/2))\ | \O(4^n / n^(1/2))\ | [Python](40_catalan_bst_dp/0095_unique_binary_search_trees_ii.py) |
+| 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | Interval DP | Reverse last-burst boundary partitioning over padded open intervals | \O(n^3)\ | \O(n^2)\ | [Code](41_interval_bursting_dp/0312_burst_balloons.py) |
+| 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) | Hard | Interval DP | Sorted endpoint sub-interval cut partitioning | \O(m^3)\ | \O(m^2)\ | [Code](41_interval_bursting_dp/1547_minimum_cost_to_cut_a_stick.py) |
+
 
 ## 🧪 Automated Testing & Verification
 
@@ -103,4 +106,3 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-
