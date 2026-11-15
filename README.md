@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-91%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-42%2F42%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-93%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-43%2F43%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -94,6 +94,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | Interval DP | Reverse last-burst boundary partitioning over padded open intervals | \O(n^3)\ | \O(n^2)\ | [Code](41_interval_bursting_dp/0312_burst_balloons.py) |
 | 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) | Hard | Interval DP | Sorted endpoint sub-interval cut partitioning | \O(m^3)\ | \O(m^2)\ | [Code](41_interval_bursting_dp/1547_minimum_cost_to_cut_a_stick.py) |
 
+
+| 97 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | String Merging DP | Dual-prefix interleaving transition with 1D rolling boolean array | `O(m * n)` | `O(min(m, n))` | [Python](43_string_merging_dp/0097_interleaving_string.py) |
+| 115 | [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | Hard | Subsequence Counting DP | Combinatorial subsequence accumulation via backward-sweeping 1D DP | `O(m * n)` | `O(n)` | [Python](43_string_merging_dp/0115_distinct_subsequences.py) |
 
 ## 🧪 Automated Testing & Verification
 
