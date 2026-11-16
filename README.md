@@ -95,8 +95,7 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) | Hard | Interval DP | Sorted endpoint sub-interval cut partitioning | \O(m^3)\ | \O(m^2)\ | [Code](41_interval_bursting_dp/1547_minimum_cost_to_cut_a_stick.py) |
 | 97 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | String Merging DP | Dual-prefix interleaving transition with 1D rolling boolean array | `O(m * n)` | `O(min(m, n))` | [Python](43_string_merging_dp/0097_interleaving_string.py) |
 | 115 | [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | Hard | Subsequence Counting DP | Combinatorial subsequence accumulation via backward-sweeping 1D DP | `O(m * n)` | `O(n)` | [Python](43_string_merging_dp/0115_distinct_subsequences.py) |
-| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | State Machine DP | 3-state finite state machine (held, sold, 
-est) enforcing 1-day cooldown | \O(n)\ | \O(1)\ | [Code](44_state_machine_dp/0309_stock_with_cooldown.py) |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | State Machine DP | 3-state finite state machine (held, sold, est) enforcing 1-day cooldown | \O(n)\ | \O(1)\ | [Code](44_state_machine_dp/0309_stock_with_cooldown.py) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | State Machine DP | 2-state rolling profit transition (cash, hold) with liquidation fee | \O(n)\ | \O(1)\ | [Code](44_state_machine_dp/0714_stock_with_transaction_fee.py) |
 
 ## 🧪 Automated Testing & Verification
