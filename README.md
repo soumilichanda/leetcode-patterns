@@ -11,11 +11,7 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 ## 📊 Pattern Progress Tracker
 
 | # | Problem | Difficulty | Pattern | Invariant / Technique | Time | Space | Solution |
-| :
-| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | Generalized k-Transaction DP | 2k-state rolling profit vectors with O(n) unbounded greedy fast-path | \O(n*k)\ | \O(k)\ | [Code](45_k_transactions_bitmask_dp/0188_best_time_to_buy_and_sell_stock_iv.py) |
-| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium | Subset Bitmask DP | Bitmask state compression tracking (sessions_used, active_load) | \O(n*2^n)\ | \O(2^n)\ | [Code](45_k_transactions_bitmask_dp/1986_min_work_sessions.py) |
-
----: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | Hash map complement lookup | `O(n)` | `O(n)` | [Code](01_arrays_and_hashing/0001_two_sum.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | Inward-converging two pointers | `O(n)` | `O(1)` | [Code](02_two_pointers/0125_valid_palindrome.py) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | Monotonic sorted sum convergence | `O(n)` | `O(1)` | [Code](02_two_pointers/0167_two_sum_ii_sorted.py) |
@@ -101,6 +97,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 115 | [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | Hard | Subsequence Counting DP | Combinatorial subsequence accumulation via backward-sweeping 1D DP | `O(m * n)` | `O(n)` | [Python](43_string_merging_dp/0115_distinct_subsequences.py) |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | State Machine DP | 3-state finite state machine (held, sold, est) enforcing 1-day cooldown | \O(n)\ | \O(1)\ | [Code](44_state_machine_dp/0309_stock_with_cooldown.py) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | State Machine DP | 2-state rolling profit transition (cash, hold) with liquidation fee | \O(n)\ | \O(1)\ | [Code](44_state_machine_dp/0714_stock_with_transaction_fee.py) |
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | Generalized k-Transaction DP | 2k-state rolling profit vectors with O(n) unbounded greedy fast-path | \O(n*k)\ | \O(k)\ | [Code](45_k_transactions_bitmask_dp/0188_best_time_to_buy_and_sell_stock_iv.py) |
+| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium | Subset Bitmask DP | Bitmask state compression tracking (sessions_used, active_load) | \O(n*2^n)\ | \O(2^n)\ | [Code](45_k_transactions_bitmask_dp/1986_min_work_sessions.py) |
 
 ## 🧪 Automated Testing & Verification
 
