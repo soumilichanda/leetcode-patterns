@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-95%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-44%2F44%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-97%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-45%2F45%20Completed-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -11,7 +11,11 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 ## 📊 Pattern Progress Tracker
 
 | # | Problem | Difficulty | Pattern | Invariant / Technique | Time | Space | Solution |
-| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| :
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | Generalized k-Transaction DP | 2k-state rolling profit vectors with O(n) unbounded greedy fast-path | \O(n*k)\ | \O(k)\ | [Code](45_k_transactions_bitmask_dp/0188_best_time_to_buy_and_sell_stock_iv.py) |
+| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium | Subset Bitmask DP | Bitmask state compression tracking (sessions_used, active_load) | \O(n*2^n)\ | \O(2^n)\ | [Code](45_k_transactions_bitmask_dp/1986_min_work_sessions.py) |
+
+---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | Hash map complement lookup | `O(n)` | `O(n)` | [Code](01_arrays_and_hashing/0001_two_sum.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | Inward-converging two pointers | `O(n)` | `O(1)` | [Code](02_two_pointers/0125_valid_palindrome.py) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | Monotonic sorted sum convergence | `O(n)` | `O(1)` | [Code](02_two_pointers/0167_two_sum_ii_sorted.py) |
