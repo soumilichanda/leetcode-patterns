@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-97%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-45%2F45%20Completed-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-99%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-46%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -99,6 +99,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | State Machine DP | 2-state rolling profit transition (cash, hold) with liquidation fee | \O(n)\ | \O(1)\ | [Code](44_state_machine_dp/0714_stock_with_transaction_fee.py) |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | Generalized k-Transaction DP | 2k-state rolling profit vectors with O(n) unbounded greedy fast-path | \O(n*k)\ | \O(k)\ | [Code](45_k_transactions_bitmask_dp/0188_best_time_to_buy_and_sell_stock_iv.py) |
 | 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium | Subset Bitmask DP | Bitmask state compression tracking (sessions_used, active_load) | \O(n*2^n)\ | \O(2^n)\ | [Code](45_k_transactions_bitmask_dp/1986_min_work_sessions.py) |
+| 847 | [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | Hard | Bitmask DP | Multi-source BFS over augmented (node, visited_mask) state space | O(n^2 * 2^n) | O(n * 2^n) | [Python](46_hamiltonian_bitmask_dp/0847_shortest_path_visiting_all_nodes.py) |
+| 943 | [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | Hard | Bitmask DP | Overlap-weighted TSP bitmask DP with parent pointer reconstruction | O(n^2 * 2^n) | O(n * 2^n) | [Python](46_hamiltonian_bitmask_dp/0943_find_the_shortest_superstring.py) |
 
 ## 🧪 Automated Testing & Verification
 
