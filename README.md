@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-99%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-46%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-101%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-47%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -101,6 +101,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium | Subset Bitmask DP | Bitmask state compression tracking (sessions_used, active_load) | \O(n*2^n)\ | \O(2^n)\ | [Code](45_k_transactions_bitmask_dp/1986_min_work_sessions.py) |
 | 847 | [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | Hard | Bitmask DP | Multi-source BFS over augmented (node, visited_mask) state space | O(n^2 * 2^n) | O(n * 2^n) | [Python](46_hamiltonian_bitmask_dp/0847_shortest_path_visiting_all_nodes.py) |
 | 943 | [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | Hard | Bitmask DP | Overlap-weighted TSP bitmask DP with parent pointer reconstruction | O(n^2 * 2^n) | O(n * 2^n) | [Python](46_hamiltonian_bitmask_dp/0943_find_the_shortest_superstring.py) |
+| 834 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | Tree Rerooting DP | Two-pass bottom-up subtree aggregation and top-down root shift | `O(n)` | `O(n)` | [Python](47_tree_rerooting_dp/0834_sum_of_distances_in_tree.py) |
+| 310 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | Centroid Tree DP | Topological leaf-peeling diameter midpoint reduction | `O(n)` | `O(n)` | [Python](47_tree_rerooting_dp/0310_minimum_height_trees.py)
 
 ## 🧪 Automated Testing & Verification
 
