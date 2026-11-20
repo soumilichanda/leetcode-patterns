@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-101%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-47%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-103%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-48%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -103,6 +103,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 943 | [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | Hard | Bitmask DP | Overlap-weighted TSP bitmask DP with parent pointer reconstruction | O(n^2 * 2^n) | O(n * 2^n) | [Python](46_hamiltonian_bitmask_dp/0943_find_the_shortest_superstring.py) |
 | 834 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | Tree Rerooting DP | Two-pass bottom-up subtree aggregation and top-down root shift | `O(n)` | `O(n)` | [Python](47_tree_rerooting_dp/0834_sum_of_distances_in_tree.py) |
 | 310 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | Centroid Tree DP | Topological leaf-peeling diameter midpoint reduction | `O(n)` | `O(n)` | [Python](47_tree_rerooting_dp/0310_minimum_height_trees.py)
+| 233 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Hard | Digit DP | Tight-bound recursive digit memoization tracking prefix ones | `O((log n)^2)` | `O((log n)^2)` | [Python](48_digit_dp/0233_number_of_digit_one.py) |
+| 902 | [902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) | Hard | Digit DP | Leading-zero & tight-bound state counting over allowed digit set | `O(log n * |D|)` | `O(log n)` | [Python](48_digit_dp/0902_numbers_at_most_n_given_digit_set.py) |
 
 ## 🧪 Automated Testing & Verification
 
