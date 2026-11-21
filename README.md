@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-103%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-48%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-105%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-49%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -105,6 +105,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 310 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | Centroid Tree DP | Topological leaf-peeling diameter midpoint reduction | `O(n)` | `O(n)` | [Python](47_tree_rerooting_dp/0310_minimum_height_trees.py)
 | 233 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Hard | Digit DP | Tight-bound recursive digit memoization tracking prefix ones | `O((log n)^2)` | `O((log n)^2)` | [Python](48_digit_dp/0233_number_of_digit_one.py) |
 | 902 | [902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) | Hard | Digit DP | Leading-zero & tight-bound state counting over allowed digit set | `O(log n * |D|)` | `O(log n)` | [Python](48_digit_dp/0902_numbers_at_most_n_given_digit_set.py) |
+| 837 | [837. New 21 Game](https://leetcode.com/problems/new-21-game/) | Medium | Probability DP | Sliding-window probability prefix sum DP | `O(n)` | `O(n)` | [Python](49_probability_markov_dp/0837_new_21_game.py) |
+| 688 | [688. Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | Medium | Markov DP | Discrete-time 2D state transition probability distribution | `O(k * n^2)` | `O(n^2)` | [Python](49_probability_markov_dp/0688_knight_probability_in_chessboard.py) |
 
 ## 🧪 Automated Testing & Verification
 
@@ -117,3 +119,4 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
+
