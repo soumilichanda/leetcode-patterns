@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-105%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-49%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-107%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-50%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -107,6 +107,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 902 | [902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) | Hard | Digit DP | Leading-zero & tight-bound state counting over allowed digit set | `O(log n * |D|)` | `O(log n)` | [Python](48_digit_dp/0902_numbers_at_most_n_given_digit_set.py) |
 | 837 | [837. New 21 Game](https://leetcode.com/problems/new-21-game/) | Medium | Probability DP | Sliding-window probability prefix sum DP | `O(n)` | `O(n)` | [Python](49_probability_markov_dp/0837_new_21_game.py) |
 | 688 | [688. Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | Medium | Markov DP | Discrete-time 2D state transition probability distribution | `O(k * n^2)` | `O(n^2)` | [Python](49_probability_markov_dp/0688_knight_probability_in_chessboard.py) |
+| 486 | [486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | Game Theory DP | Interval score-differential minimax dynamic programming | `O(n^2)` | `O(n)` | [Python](50_game_theory_minimax_dp/0486_predict_the_winner.py) |
+| 877 | [877. Stone Game](https://leetcode.com/problems/stone-game/) | Medium | Game Theory DP | Zero-sum interval minimax DP & even-length parity invariant | `O(n^2)` | `O(n)` | [Python](50_game_theory_minimax_dp/0877_stone_game.py) |
 
 ## 🧪 Automated Testing & Verification
 
