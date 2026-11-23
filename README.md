@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-107%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-50%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-109%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-51%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -109,6 +109,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 688 | [688. Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | Medium | Markov DP | Discrete-time 2D state transition probability distribution | `O(k * n^2)` | `O(n^2)` | [Python](49_probability_markov_dp/0688_knight_probability_in_chessboard.py) |
 | 486 | [486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | Game Theory DP | Interval score-differential minimax dynamic programming | `O(n^2)` | `O(n)` | [Python](50_game_theory_minimax_dp/0486_predict_the_winner.py) |
 | 877 | [877. Stone Game](https://leetcode.com/problems/stone-game/) | Medium | Game Theory DP | Zero-sum interval minimax DP & even-length parity invariant | `O(n^2)` | `O(n)` | [Python](50_game_theory_minimax_dp/0877_stone_game.py) |
+| 698 | [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium | Bitmask DP | Subset-sum modulo bucket transition bitmask DP | `O(n * 2^n)` | `O(2^n)` | [Python](51_bitmask_subset_dp/0698_partition_to_k_equal_sum_subsets.py) |
+| 1125 | [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | Hard | Bitmask DP | Skill-mask set cover transition DP with bitwise team encoding | `O(people * 2^skills)` | `O(2^skills)` | [Python](51_bitmask_subset_dp/1125_smallest_sufficient_team.py) |
+
 
 ## 🧪 Automated Testing & Verification
 
@@ -121,4 +124,3 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-
