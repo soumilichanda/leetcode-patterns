@@ -111,6 +111,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 877 | [877. Stone Game](https://leetcode.com/problems/stone-game/) | Medium | Game Theory DP | Zero-sum interval minimax DP & even-length parity invariant | `O(n^2)` | `O(n)` | [Python](50_game_theory_minimax_dp/0877_stone_game.py) |
 | 698 | [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium | Bitmask DP | Subset-sum modulo bucket transition bitmask DP | `O(n * 2^n)` | `O(2^n)` | [Python](51_bitmask_subset_dp/0698_partition_to_k_equal_sum_subsets.py) |
 | 1125 | [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | Hard | Bitmask DP | Skill-mask set cover transition DP with bitwise team encoding | `O(people * 2^skills)` | `O(2^skills)` | [Python](51_bitmask_subset_dp/1125_smallest_sufficient_team.py) |
+| 329 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | DAG Topological DP | Out-degree DAG level peeling (Kahn's topological BFS) | `O(m * n)` | `O(m * n)` | [Python](52_dag_topological_dp/0329_longest_increasing_path_in_a_matrix.py) |
+| 1857 | [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | Hard | DAG Topological DP | Topological sort + 26-color DP frequency propagation & cycle detection | `O(26 * (V + E))` | `O(26 * V)` | [Python](52_dag_topological_dp/1857_largest_color_value_in_a_directed_graph.py) |
 
 
 ## 🧪 Automated Testing & Verification
@@ -124,5 +126,4 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-| 329 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | DAG Topological DP | Out-degree DAG level peeling (Kahn's topological BFS) | `O(m * n)` | `O(m * n)` | [Python](52_dag_topological_dp/0329_longest_increasing_path_in_a_matrix.py) |
-| 1857 | [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | Hard | DAG Topological DP | Topological sort + 26-color DP frequency propagation & cycle detection | `O(26 * (V + E))` | `O(26 * V)` | [Python](52_dag_topological_dp/1857_largest_color_value_in_a_directed_graph.py) |
+
