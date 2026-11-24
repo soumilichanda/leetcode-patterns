@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-109%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-51%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-111%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-52%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -124,3 +124,5 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
+| 329 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | DAG Topological DP | Out-degree DAG level peeling (Kahn's topological BFS) | `O(m * n)` | `O(m * n)` | [Python](52_dag_topological_dp/0329_longest_increasing_path_in_a_matrix.py) |
+| 1857 | [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | Hard | DAG Topological DP | Topological sort + 26-color DP frequency propagation & cycle detection | `O(26 * (V + E))` | `O(26 * V)` | [Python](52_dag_topological_dp/1857_largest_color_value_in_a_directed_graph.py) |
