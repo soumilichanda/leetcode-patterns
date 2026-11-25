@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-111%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-52%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-113%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-53%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -126,4 +126,5 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-
+| 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | Hard | Monotonic Queue DP | Decreasing index deque over bounded `[i-k, i-1]` DP window | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1425_constrained_subsequence_sum.py) |
+| 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | Medium | Monotonic Queue DP | Mandatory-endpoint sliding-window max deque DP | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1696_jump_game_vi.py) |
