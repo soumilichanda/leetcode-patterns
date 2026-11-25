@@ -113,7 +113,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 1125 | [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | Hard | Bitmask DP | Skill-mask set cover transition DP with bitwise team encoding | `O(people * 2^skills)` | `O(2^skills)` | [Python](51_bitmask_subset_dp/1125_smallest_sufficient_team.py) |
 | 329 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | DAG Topological DP | Out-degree DAG level peeling (Kahn's topological BFS) | `O(m * n)` | `O(m * n)` | [Python](52_dag_topological_dp/0329_longest_increasing_path_in_a_matrix.py) |
 | 1857 | [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | Hard | DAG Topological DP | Topological sort + 26-color DP frequency propagation & cycle detection | `O(26 * (V + E))` | `O(26 * V)` | [Python](52_dag_topological_dp/1857_largest_color_value_in_a_directed_graph.py) |
-
+| 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | Hard | Monotonic Queue DP | Decreasing index deque over bounded `[i-k, i-1]` DP window | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1425_constrained_subsequence_sum.py) |
+| 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | Medium | Monotonic Queue DP | Mandatory-endpoint sliding-window max deque DP | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1696_jump_game_vi.py) |
 
 ## 🧪 Automated Testing & Verification
 
@@ -126,5 +127,4 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-| 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | Hard | Monotonic Queue DP | Decreasing index deque over bounded `[i-k, i-1]` DP window | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1425_constrained_subsequence_sum.py) |
-| 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | Medium | Monotonic Queue DP | Mandatory-endpoint sliding-window max deque DP | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1696_jump_game_vi.py) |
+
