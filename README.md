@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-113%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-53%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-115%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-54%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -115,6 +115,8 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 1857 | [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | Hard | DAG Topological DP | Topological sort + 26-color DP frequency propagation & cycle detection | `O(26 * (V + E))` | `O(26 * V)` | [Python](52_dag_topological_dp/1857_largest_color_value_in_a_directed_graph.py) |
 | 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | Hard | Monotonic Queue DP | Decreasing index deque over bounded `[i-k, i-1]` DP window | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1425_constrained_subsequence_sum.py) |
 | 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | Medium | Monotonic Queue DP | Mandatory-endpoint sliding-window max deque DP | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1696_jump_game_vi.py) |
+| 1478 | [Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/) | Hard | DP Optimization | Precomputed median-cost interval DP over sorted houses | `O(k * n^2)` | `O(n^2)` | [Code](54_dp_optimization/1478_allocate_mailboxes.py) |
+| 813 | [Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/) | Medium | DP Optimization | Space-compressed k-partition prefix-average DP | `O(k * n^2)` | `O(n)` | [Code](54_dp_optimization/0813_largest_sum_of_averages.py) |
 
 ## 🧪 Automated Testing & Verification
 
