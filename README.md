@@ -2,8 +2,8 @@
 
 Curated solutions to LeetCode problems organized by algorithmic patterns, focusing on strict time/space complexity invariants.
 
-[![Solved Patterns](https://img.shields.io/badge/Solved-115%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
-[![Clusters Completed](https://img.shields.io/badge/Clusters-54%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
+[![Solved Patterns](https://img.shields.io/badge/Solved-117%20Patterns-brightgreen.svg)](#-solved-problems-tracker)
+[![Clusters Completed](https://img.shields.io/badge/Clusters-55%20Clusters-brightgreen.svg)](#-solved-problems-tracker)
 [![Auxiliary Space Complexity](https://img.shields.io/badge/Complexity-O(1)%20Auxiliary%20Space-dodgerblue.svg)](#-pattern-progress-tracker)
 
 ---
@@ -117,6 +117,9 @@ Curated solutions to LeetCode problems organized by algorithmic patterns, focusi
 | 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | Medium | Monotonic Queue DP | Mandatory-endpoint sliding-window max deque DP | `O(n)` | `O(n)` | [Code](53_monotonic_queue_dp/1696_jump_game_vi.py) |
 | 1478 | [Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/) | Hard | DP Optimization | Precomputed median-cost interval DP over sorted houses | `O(k * n^2)` | `O(n^2)` | [Code](54_dp_optimization/1478_allocate_mailboxes.py) |
 | 813 | [Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/) | Medium | DP Optimization | Space-compressed k-partition prefix-average DP | `O(k * n^2)` | `O(n)` | [Code](54_dp_optimization/0813_largest_sum_of_averages.py) |
+| 982 | [982. Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) | Hard | SOS Bitmask DP | Pairwise AND frequency + Sum Over Subsets (SOS) complement lookup | `O(n^2 + B*2^B)` | `O(2^B)` | [Python](55_sos_bitmask_dp/0982_triples_with_bitwise_and_equal_to_zero.py) |
+| 1178 | [1178. Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/) | Hard | SOS Bitmask DP | 26-bit mask compression + 2^6 submask enumeration with mandatory first-bit | `O(W*L + P*2^6)` | `O(W)` | [Python](55_sos_bitmask_dp/1178_number_of_valid_words_for_each_puzzle.py) |
+
 
 ## 🧪 Automated Testing & Verification
 
@@ -129,4 +132,3 @@ pytest -v 12_dynamic_programming_2d/test_dp_2d.py
 pytest -v 20_tries/test_tries.py
 pytest -v 21_heaps/test_heaps.py
 pytest -v 24_mst_union_find/test_mst_union_find.py
-
